@@ -139,7 +139,8 @@ select {
   display: block;
 }
 
-.flow > * + * /* ---*+*==*:not(:first-child)--- */ {
+/* ---*+*==*:not(:first-child)--- */
+.flow > * + * {
   margin-top: var(--flow-space, 1rem);
 }
 
